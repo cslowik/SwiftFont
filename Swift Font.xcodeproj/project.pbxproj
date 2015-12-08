@@ -12,6 +12,7 @@
 		835F4CC61C17349600F44F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835F4CC41C17349600F44F05 /* Main.storyboard */; };
 		835F4CC81C17349600F44F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835F4CC71C17349600F44F05 /* Assets.xcassets */; };
 		835F4CCB1C17349600F44F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835F4CC91C17349600F44F05 /* LaunchScreen.storyboard */; };
+		835F4CD71C1735EF00F44F05 /* UIFont-SwiftFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F4CD61C1735EF00F44F05 /* UIFont-SwiftFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		835F4CC71C17349600F44F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		835F4CCA1C17349600F44F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		835F4CCC1C17349600F44F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835F4CD61C1735EF00F44F05 /* UIFont-SwiftFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont-SwiftFont.swift"; path = "Extension/UIFont-SwiftFont.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		835F4CBF1C17349600F44F05 /* Swift Font */ = {
 			isa = PBXGroup;
 			children = (
+				835F4CD51C1735D800F44F05 /* Extension */,
 				835F4CC01C17349600F44F05 /* AppDelegate.swift */,
 				835F4CC21C17349600F44F05 /* ViewController.swift */,
 				835F4CC41C17349600F44F05 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				835F4CCC1C17349600F44F05 /* Info.plist */,
 			);
 			path = "Swift Font";
+			sourceTree = "<group>";
+		};
+		835F4CD51C1735D800F44F05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				835F4CD61C1735EF00F44F05 /* UIFont-SwiftFont.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +107,7 @@
 				TargetAttributes = {
 					835F4CBC1C17349600F44F05 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8U4R9Q4J3X;
 					};
 				};
 			};
@@ -136,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				835F4CC31C17349600F44F05 /* ViewController.swift in Sources */,
+				835F4CD71C1735EF00F44F05 /* UIFont-SwiftFont.swift in Sources */,
 				835F4CC11C17349600F44F05 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Swift Font/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slowik.Swift-Font";
@@ -258,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Swift Font/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slowik.Swift-Font";
